@@ -1,0 +1,62 @@
+<!-- Créez une page HTML
+
+Ajoutez une div avec la classe "container".
+
+Ajoutez une autre div à l'intérieur de la première avec la classe "row".
+
+Ajoutez trois div supplémentaires à l'intérieur de la div "row", chacune avec la classe "col".
+
+À l'intérieur de chaque colonne, ajoutez une image et un titre .
+
+Ajoutez également un petit paragraphe de texte sous chaque titre pour donner une description de l'image.
+
+Utilisez les classes Bootstrap pour styliser les éléments, par exemple "img-fluid" pour les images et "text-center" pour centrer le texte.
+
+Ajoutez du CSS personnalisé pour donner une apparence unique à votre grille de colonnes. -->
+
+<!-- faite disparaitre la  1er image sur les ecrans moyen et la  1er et 2eme sur les petits ecrans -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../BootStrap/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <h1>Lorem ipsum dolor sit amet.
+
+                </h1>
+                <p class="text-center">
+                    Lorem ipsum dolor sit amet.
+                </p>
+                <img class="img-fluid d-none d-md-block d-none d-sm-block" src="https://picsum.photos/200/300" alt="hasard">
+            </div>
+            <div class="col-4">
+                <h1>
+                    Lorem ipsum dolor sit amet.
+
+                </h1>
+                <p class="text-center">
+                    Lorem ipsum dolor sit amet.
+
+                </p>
+                <img class="img-fluid d-none d-sm-block" src="https://picsum.photos/200/300" alt="hasard">
+            </div>
+            <div class="col-4"><h1>
+                Lorem ipsum dolor sit amet.
+
+            </h1>
+            <p class="text-center">
+                Lorem ipsum dolor sit amet.
+            </p>
+            <img class="img-fluid" src="https://picsum.photos/200/300" alt="hasard">
+        </div>
+        </div>
+    </div>
+</body>
+</html>

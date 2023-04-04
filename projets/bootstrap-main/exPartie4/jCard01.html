@@ -1,0 +1,107 @@
+<!-- 
+    https://getbootstrap.com/docs/5.0/components/card/
+
+Commencez par inclure les fichiers CSS et JS de Bootstrap dans votre projet.
+
+creez un <main class="container-fluid my-3" (my= margin vertical) avec un section class="row"
+Créez un élément div pour la carte en utilisant la classe card et les classes qui permettent d'afficher 1 , 2 et 3 image par breakpoint
+
+
+Ajoutez un corps de carte en utilisant la classe card-body.
+mettez y un titre h1 class="card-title h3"
+y ajouter une description du produit dans un <p class="card-text"
+y ajouter un lien class="btn btn-primary "
+
+au dessus du card-body ajoutez une img class="card-img-top"
+
+creez 3 autres card en chageant l'image 
+
+
+Si vous le souhaitez, vous pouvez ajouter un pied de carte en utilisant la classe card-footer. Vous pouvez y ajouter des informations supplémentaires sur le produit ou des liens pertinents.
+
+Personnalisez l'apparence de la carte en utilisant des classes CSS de Bootstrap telles que bg-primary pour changer la couleur d'arrière-plan ou text-white pour changer la couleur de texte. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../BootStrap/css/bootstrap.min.css">
+</head>
+<body>
+
+    <main class="container-fluid my-3">
+        <section class="row">
+            <div class="col-12 col-md-6 col-lg-3 card ">
+                <img src="https://picsum.photos/id/237/200/300" alt="" class="card-img-top">
+                <div class="card-body text-center">
+                    <h1 class="card-title h3">
+                        Titre 1
+                    </h1>
+             
+                <p class="card-text">
+                    Description image 1
+                </p>
+                <a href="#" class="btn btn-primary">Masquer</a>
+
+            </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 card text-center">
+                <img src="https://picsum.photos/id/240/200/300" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h1 class="card-title h3 ">
+                        Titre 2
+                    </h1>
+         
+                <p class="card-text">
+                   Description image 2
+                </p>
+                <a href="" class="btn btn-primary mt-3">Masquer</a>
+
+            </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 card text-center">
+                <img src="https://picsum.photos/id/239/200/300" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h1 class="card-title h3">
+                        Titre 3
+                    </h1>
+                
+                <p class="card-text">
+                    Description image 3
+                </p>
+                <a href="" class="btn btn-primary">Masquer</a>
+
+            </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 card text-center">
+                <img src="https://picsum.photos/id/235/200/300" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h1 class="card-title h3">
+                        Titre 4
+                    </h1>
+              
+                <p class="card-text">
+                    Description image 4
+                </p>
+                <a href="" class="btn btn-primary">Masquer</a>
+
+            </div>
+            </div>
+        </section>
+    </main>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="../../BootStrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

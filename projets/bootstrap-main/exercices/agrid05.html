@@ -1,0 +1,40 @@
+<!-- 
+pour masquer une image sur les écrans plus petits, vous pouvez utiliser la classe Bootstrap d-none d-lg-block. La classe d-none signifie que l'élément est caché sur tous les écrans et la classe d-lg-block signifie que l'élément sera affiché uniquement sur les écrans de taille large (lg) et supérieurs. -->
+
+<!-- Créez une page avec une grille Bootstrap contenant deux colonnes. Dans la première colonne, affichez une image et dans la deuxième colonne, affichez un texte descriptif. Utilisez la classe img-fluid pour rendre l'image responsive et la classe d-none d-md-block pour masquer l'image sur les écrans plus petits que md. Utilisez la classe text-center pour centrer le texte dans la deuxième colonne. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../BootStrap/css/bootstrap.min.css">
+
+    <div class="container-fluid" style='border:solid 2px black;'>
+        <div class="row">
+         
+    
+            <div class="col-4 d-none d-md-block" style="border: solid 2px;">
+                <img class="img-fluid" src="https://picsum.photos/200/300" alt="hasard">
+               
+    </div>
+            <div class="col-4" style="border: solid 2px black;">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat cupiditate blanditiis laboriosam expedita optio delectus facilis quod consequuntur natus quisquam fuga aspernatur iusto praesentium, nemo quas at impedit aliquam laborum?
+            Enim, autem. Repellat asperiores nulla et nostrum? Voluptates repudiandae iure optio dolorem fuga soluta illo, ea odio at nemo quis consequuntur laborum magni molestias quibusdam dolor inventore error suscipit? Cum.
+            Omnis aspernatur, ducimus perspiciatis, debitis libero corporis obcaecati voluptatem natus blanditiis unde aliquid ipsa. Sunt ad ab quidem quas incidunt eveniet at animi blanditiis quis, fugiat harum? Fugit, quaerat mollitia!
+        </p>
+        </div>
+        <div class="col-4 d-none d-lg-block" style="border: solid 2px black;">
+            <img class="img-fluid" src="https://picsum.photos/200/300" alt="hasard">
+           
+</div>
+
+        </div>
+        </div>
+    </div>
+</head>
+<body>
+    
+</body>
+</html>
